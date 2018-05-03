@@ -5,32 +5,11 @@
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
-			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Model",
-			"ownedElements": [
-				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFF+qBtyKM79qY=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Main",
-					"visible": true,
-					"defaultDiagram": true
-				}
-			],
-			"visibility": "public"
-		},
-		{
-			"_type": "UMLModel",
 			"_id": "AAAAAAFjJh245TLZkuU=",
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "Model1",
+			"name": "Model",
 			"ownedElements": [
 				{
 					"_type": "UMLUseCaseDiagram",
@@ -40,7 +19,757 @@
 					},
 					"name": "HanaDalUseCaseDiagram",
 					"visible": true,
-					"defaultDiagram": false
+					"defaultDiagram": false,
+					"ownedViews": [
+						{
+							"_type": "UMLActorView",
+							"_id": "AAAAAAFjJloTHDLhy+0=",
+							"_parent": {
+								"$ref": "AAAAAAFjJh245TLab4E="
+							},
+							"model": {
+								"$ref": "AAAAAAFjJloTGzLfaOc="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFjJloTHTLiPzY=",
+									"_parent": {
+										"$ref": "AAAAAAFjJloTHDLhy+0="
+									},
+									"model": {
+										"$ref": "AAAAAAFjJloTGzLfaOc="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFjJloTHTLjJlI=",
+											"_parent": {
+												"$ref": "AAAAAAFjJloTHTLiPzY="
+											},
+											"visible": false,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 0,
+											"top": -32,
+											"width": 0,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"horizontalAlignment": 2,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFjJloTHTLkVLI=",
+											"_parent": {
+												"$ref": "AAAAAAFjJloTHTLiPzY="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;1",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 253,
+											"top": 9989,
+											"width": 887,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "Actor1",
+											"horizontalAlignment": 2,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFjJloTHTLlgCE=",
+											"_parent": {
+												"$ref": "AAAAAAFjJloTHTLiPzY="
+											},
+											"visible": false,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 0,
+											"top": -32,
+											"width": 80.9072265625,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "(from Model)",
+											"horizontalAlignment": 2,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFjJloTHTLmyx4=",
+											"_parent": {
+												"$ref": "AAAAAAFjJloTHTLiPzY="
+											},
+											"visible": false,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 0,
+											"top": -32,
+											"width": 0,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"horizontalAlignment": 1,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										}
+									],
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 248,
+									"top": 9982,
+									"width": 897,
+									"height": 25,
+									"autoResize": false,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFjJloTHTLjJlI="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFjJloTHTLkVLI="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFjJloTHTLlgCE="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFjJloTHTLmyx4="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFjJloTHTLnbBc=",
+									"_parent": {
+										"$ref": "AAAAAAFjJloTHDLhy+0="
+									},
+									"model": {
+										"$ref": "AAAAAAFjJloTGzLfaOc="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 0,
+									"top": -16,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFjJloTHjLojlk=",
+									"_parent": {
+										"$ref": "AAAAAAFjJloTHDLhy+0="
+									},
+									"model": {
+										"$ref": "AAAAAAFjJloTGzLfaOc="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 0,
+									"top": -16,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFjJloTHjLpvNw=",
+									"_parent": {
+										"$ref": "AAAAAAFjJloTHDLhy+0="
+									},
+									"model": {
+										"$ref": "AAAAAAFjJloTGzLfaOc="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 0,
+									"top": -16,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFjJloTHjLquww=",
+									"_parent": {
+										"$ref": "AAAAAAFjJloTHDLhy+0="
+									},
+									"model": {
+										"$ref": "AAAAAAFjJloTGzLfaOc="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 0,
+									"top": -16,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								}
+							],
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": true,
+							"containerExtending": false,
+							"left": 248,
+							"top": 8392,
+							"width": 897,
+							"height": 1616,
+							"autoResize": false,
+							"stereotypeDisplay": "label",
+							"showVisibility": true,
+							"showNamespace": false,
+							"showProperty": true,
+							"showType": true,
+							"nameCompartment": {
+								"$ref": "AAAAAAFjJloTHTLiPzY="
+							},
+							"wordWrap": false,
+							"suppressAttributes": true,
+							"suppressOperations": true,
+							"suppressReceptions": true,
+							"showMultiplicity": true,
+							"showOperationSignature": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAFjJloTHTLnbBc="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFjJloTHjLojlk="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFjJloTHjLpvNw="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFjJloTHjLquww="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAFjJloTGzLfaOc=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "Actor1",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAFjJmFp6DZieRk=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "도전",
+					"ownedElements": [
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJlsSCDNNHos=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmFp6DZieRk="
+							},
+							"name": "도전만들기",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJl2jua2a/to=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmFp6DZieRk="
+							},
+							"name": "Trending 확인",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJl87oK2enII=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmFp6DZieRk="
+							},
+							"name": "완성된 도전 확인",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAFjJmM0TDcag7s=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "검색",
+					"ownedElements": [
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBKva3Rsnk=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmM0TDcag7s="
+							},
+							"name": "검색하기",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBQFK3So/0=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmM0TDcag7s="
+							},
+							"name": "최근 검색어 조회",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAFjJmOEFTdHmd4=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "Q&A",
+					"ownedElements": [
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBUPa3TckE=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOEFTdHmd4="
+							},
+							"name": "질문하기",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBW8a3UK6A=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOEFTdHmd4="
+							},
+							"name": "답변하기",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBZFK3V8UM=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOEFTdHmd4="
+							},
+							"name": "수정",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAFjJmOPRzdg5t4=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "계정",
+					"ownedElements": [
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBbEK3WBDY=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOPRzdg5t4="
+							},
+							"name": "로그인",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBcrK3XvlQ=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOPRzdg5t4="
+							},
+							"name": "로그아웃",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBe0a3YzKg=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOPRzdg5t4="
+							},
+							"name": "프로필 조회",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmZW+63y8yI=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOPRzdg5t4="
+							},
+							"name": "프로필 수정",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAFjJmOSIjd5cDg=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "스토어",
+					"ownedElements": [
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBk3a3aIHc=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOSIjd5cDg="
+							},
+							"name": "아이템 조회",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmBiua3ZMtY=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOSIjd5cDg="
+							},
+							"name": "구매",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLUseCase",
+							"_id": "AAAAAAFjJmZEmK3tCeg=",
+							"_parent": {
+								"$ref": "AAAAAAFjJmOSIjd5cDg="
+							},
+							"name": "아이템 구분",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmZiKK30rIg=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "기록 삭제",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmZoA6310m4=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "나도 도전하기",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmZvs632rXU=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "도전 조회",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAFjJmfPHjhvlys=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "조회",
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmkKVa35ElU=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "To-Do 확인",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmkPc63676Q=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "도전리스트 조회",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmkXbK372ow=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "Q&A 리스트 조회",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmkcm6388Gs=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "Q&A 조회",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmkh2639xCM=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "책리스트 조회",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmknH63+1f4=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "첵 조회",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmkrw63/JY4=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "다이어리 조회",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmkyEK4ABws=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "다이러리 작성",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmk21a4BCO8=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "다이어리 수정",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmk7664CuSM=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "의견 주기 리스트 조회",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmlBPq4DZLA=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "의견 주기 자세히 보기",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmlHk64EXBc=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "도전 정보 조회",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJmlOcK4FJyY=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "도전자의 다른 정보 보기",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAFjJm316K4Hs9I=",
+					"_parent": {
+						"$ref": "AAAAAAFjJh245TLZkuU="
+					},
+					"name": "응원 해주기",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
 				}
 			],
 			"visibility": "public"
